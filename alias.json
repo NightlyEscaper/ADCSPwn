@@ -1,0 +1,25 @@
+{
+    "name": "ADCSPwn",
+    "version": "v0.0.0",
+    "command_name": "adcspwn",
+    "original_author": "bats3c",
+    "repo_url": "https://github.com/NightlyEscaper/ADCSPwn",
+    "help": "A tool to escalate privileges in an active directory network by coercing authenticate from machine accounts and relaying to the certificate service. ",
+    "entrypoint": "Main",
+    "allow_args": true,
+    "default_args": "-h",
+    "is_reflective": false,
+    "is_assembly": true,
+    "files": [
+      {
+        "os": "windows",
+        "arch": "amd64",
+        "path": "ADCSPwn.exe"
+      },
+      {
+        "os": "windows",
+        "arch": "386",
+        "path": "ADCSPwn.exe"
+      }
+    ]
+  }
